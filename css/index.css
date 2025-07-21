@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+.navbar-container {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+}
+
+.location {
+  font-size: 14px;
+  color: #333;
+}
+
+.search-bar {
+  width: 40%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.profile {
+  font-size: 14px;
+  color: #666;
+}
+
+.main-container {
+  padding: 30px;
+}
+
+.category-section h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.category-cards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  width: 140px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.card:hover {
+  background-color: #e0e0e0;
+}
+
+.suggestions {
+  margin-top: 40px;
+}
+
+.suggestions h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.suggestion-cards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.suggestion {
+  background-color: #ffe0b2;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.promotions {
+  margin-top: 40px;
+}
+
+.promotions h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.promo-cards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.promo {
+  flex: 1;
+  min-width: 150px;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+}
+
+.yellow { background-color: #fdd835; color: black; }
+.blue { background-color: #42a5f5; }
+.pink { background-color: #ec407a; }
